@@ -4,17 +4,104 @@
 <head>
   <meta charset="utf-8">
   <title>CSS Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Staatliches" rel="stylesheet">
+
   <style media="screen">
-    h1,table {
-      color:red;
+    /*
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-family: 'Staatliches', cursive;
+   */
+   body {
+    background-image:
+    url("image/bd.jpeg");
+    background-size: cover;
+    background-repeat:
+    no-repeat;
+   }
+
+    h1 {
+      text-align: center;
+      border-bottom: 5px dotted red;
+      padding-bottom: 15px;
+      font-family: 'Libre Barcode 39 Text', cursive;
+      font-size: 50px;
+
     }
-    a:hover{
-      font-weight:bold;
+
+    h1,
+    table {
+      color: red;
+
+    }
+
+    a:hover {
+      font-weight: 800;
+    }
+
+    p {
+      font-family: "Staatliches", cursive;
+      font-variant: small-caps;
+      font-size: 20px;
+
+    }
+
+    li:first-of-type {
+      color: blue
+    }
+
+    table {
+      border: 3px solid red;
+
+
+    }
+
+    td,
+    th {
+      border: 3px solid red;
+    }
+
+    ul {
+      list-style: square outside none;
+      padding-left: 10px;
+    }
+
+    ol {
+      list-style: upper-roman;
+    }
+
+    .navigation {
+      list-style: none;
+      padding-left: 0;
+      background-color: orange;
+      padding: 10px;
+    }
+
+    .navigation li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .navigation a {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .navigation a:hover {
+      font-weight: normal;
+      background-color: white;
+      color: orange;
     }
   </style>
 </head>
+
 <body>
   <h1>CSS Example</h1>
+  <ul class="navigation" id="">
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+  </ul>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
     irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     <br>
