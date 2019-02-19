@@ -1,0 +1,16 @@
+body {
+  background: lightblue;
+}
+h1{
+  border: 1px dashed red;
+}
+li{
+
+}
+.Guang {
+  color: red;
+}
+
+#leftnavigation{
+  text-dercoration: line-through;
+}
