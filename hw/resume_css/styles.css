@@ -1,36 +1,65 @@
+/*font-family: 'Libre Barcode 39 Text', cursive;
+  font-family: 'Staatliches', cursive;*/
+address {
+  color: blue;
+}
+
+b {
+  color: red;
+}
+
 body {
   /*background: lightblue;*/
   background: #FFFFFF;
 }
-h1{
-  border: 1px dashed red;
-}
-li{
 
-}
-.Guang {
-  color: red;
-  border-bottom: 2px dotted #00884F;
+h1 {
+  font-family: 'Staatliches', cursive;
 }
 
-#leftnavigation{
-  text-dercoration: line-through;
+li {}
+
+.subtitle {
+  color: blue;
 }
 
-#profileimage{
+.body {
+  color: #66CCFF;
+}
+
+#profileimage {
   text-align: center;
 }
 
-.divider{
-  border-style: dashed;
-  border-color: red;
-
+#name {
+  text-align: center;
 }
 
-a{
+#student {
+  text-align: center;
+}
+
+#address {
+  text-align: center;
+}
+
+#selfintor {
+  text-align: center;
+}
+
+a {
+  color: lightblue;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   background: black;
   color: white
+}
+
+#bottom {
+  border-bottom: solid;
+  border-bottom-style: groove;
+  border-bottom-width: 2em;
+
 }
