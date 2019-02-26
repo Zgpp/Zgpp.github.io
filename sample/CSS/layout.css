@@ -22,8 +22,9 @@ section{
 .rightcolumn{
   display: block;
   min-height: 100px;
-  width: 590px;
+  width: 570px;
   float: right;
+  padding: 10px;
 }
 .leftcolumn{
   display: block;
