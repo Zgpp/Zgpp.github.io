@@ -1,5 +1,12 @@
-
-
+.margin10{
+  margin: 10px;
+}
+.largeslide{
+  max-width: 100%;
+}
+.smallslide{
+  display: none;
+}
 body, html { padding: 0 margin: 0}
 .border { border: 1px solid #000000;}
 .margin10{

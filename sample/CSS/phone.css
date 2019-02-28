@@ -1,0 +1,36 @@
+.margin10{
+  margin: 0px;
+}
+.largeslide{
+  display: none;
+}
+.smallslide{
+  width: 100%;
+}
+main{
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  margin-top: 20px;
+
+}
+section{ box-sizing: content-box;}
+.rightcolumn{
+  display: block;
+  min-height: 100px;
+  width: 80%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.leftcolumn{
+  display: block;
+  min-height: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 10px;
+
+}
