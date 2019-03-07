@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  text-align:center;
+}
+.grid2 {
+  background: #cccccc;
+  margin-top: 100px;
+  display: grid;
+  /*grid-template-columns: 2fr 5fr 5fr;*/
+  grid-template-columns: 2fr 2fr;
+  max-width: 100%;
+}
+
+/* .article1{grid-template-columns: 1fr;} */

@@ -1,0 +1,6 @@
+/* .article1{ grid-template-columns: 1fr 2fr;} */
+.article3 {grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+.article3 img { max-width: 100%; }
+.article3 div { padding: 5px;}
+
+nav ul { grid-template-columns: 1fr 1fr 1fr;}
