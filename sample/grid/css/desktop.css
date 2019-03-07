@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100px 200px 100px 400px;
+}
+div{
+  border: 1px solid #000000
+}
+.grid2 {
+  background: #cccccc;
+  margin-top: 100px;
+  width: 960px;
+  display: grid;
+  /*grid-template-columns: 2fr 5fr 5fr;*/
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 100%;
+}
