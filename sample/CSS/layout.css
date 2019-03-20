@@ -1,12 +1,18 @@
 
 
-body, html { padding: 0 margin: 0}
-.border { border: 1px solid #000000;}
-.margin10{
+.border {
+  border: 1px solid #000000;
+}
+
+.margin10 {
   margin: 10px;
 }
-body{ background: #cccccc;}
-main{
+
+body {
+  background: #cccccc;
+}
+
+main {
   display: block;
   width: 960px;
   min-height: 100px;
@@ -15,23 +21,30 @@ main{
   margin-top: 20px;
   background: #FFFFFF;
 }
+
 header {
   text-align: center;
 }
-section{
+
+section {
   min-height: 100px;
 }
-.rightcolumn{
+
+.rightcolumn {
   display: block;
   min-height: 100px;
   width: 570px;
   float: right;
   padding: 10px;
 }
-.leftcolumn{
+
+.leftcolumn {
   display: block;
   min-height: 100px;
   width: 300px;
   float: left;
 }
-.clear { clear: both;}
+
+.clear {
+  clear: both;
+}

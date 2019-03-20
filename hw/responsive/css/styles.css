@@ -1,6 +1,15 @@
 .title1{
   text-align: center;
 }
+main {
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: #FFFFFF;
+}
 img{max-width: 100%;}
 
 .article1,
