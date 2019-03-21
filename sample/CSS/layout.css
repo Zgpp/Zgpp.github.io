@@ -1,4 +1,12 @@
-
+main{
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: #FFFFFF;
+}
 
 .border {
   border: 1px solid #000000;

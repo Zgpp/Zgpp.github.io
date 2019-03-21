@@ -1,8 +1,9 @@
-.title1{
+.title{
   text-align: center;
 }
 
-img{max-width: 100%;}
+img{max-width: 100%;
+text-align:center;}
 
 .article1,
 .article2,
