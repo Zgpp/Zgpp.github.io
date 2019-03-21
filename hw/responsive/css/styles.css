@@ -24,3 +24,7 @@ nav ul a{ text-decoration: none; }
 .margintop{
   margin-top: 100px;
 }
+
+.border {
+  border: 1px solid #000000;
+}
