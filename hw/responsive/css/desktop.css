@@ -9,7 +9,7 @@ main {
   background: #FFFFFF;
 }
 .article1 {
-  grid-template-columns: 7fr 1fr 7fr;
+  grid-template-columns: 5fr 3fr 6fr;
   padding: 10px;
 }
 
