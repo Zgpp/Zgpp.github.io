@@ -11,7 +11,8 @@ text-align:center;}
 
 .article1,
 .article2,
-.article3{ display: grid;}
+.article3,
+.article4{ display: grid;}
 
 .primarycolor{}
 .secondarycolor{}

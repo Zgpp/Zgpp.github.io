@@ -8,6 +8,11 @@ main{
 .mobileArticle1 {
   padding: 10px;
 }
+
+.desktopflag{
+  display: none;
+}
+
 .grid {
   display: grid;
   text-align:center;

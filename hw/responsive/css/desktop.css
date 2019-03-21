@@ -40,6 +40,14 @@ main {
   grid-template-columns: 2fr 1fr;
 }
 
+.image img{
+  max-width: 300px;
+}
+
+.image{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .rightcolumn {
   display: block;
   min-height: 100px;
@@ -66,5 +74,5 @@ main {
 }
 
 nav ul {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
