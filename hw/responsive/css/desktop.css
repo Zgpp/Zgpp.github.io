@@ -15,6 +15,10 @@ main {
   padding: 20px;
 }
 
+#smallmargin{
+  margin-top: 10px;
+}
+
 .flags img {
   height: 400px;
 }
@@ -31,28 +35,34 @@ main {
 .politic{
   margin-top: 40px;
 }
+
+.dragoon{
+  grid-template-columns: 2fr 1fr;
+}
+
 .rightcolumn {
   display: block;
   min-height: 100px;
-  width: 570px;
+  width: 300px;
   float: right;
   padding: 10px;
+  margin-right: 10px;
 }
 
 .leftcolumn {
   display: block;
   min-height: 100px;
-  width: 300px;
+  width: 400px;
   float: left;
-  margin-left: 150px;
+  margin-left: 10px;
 }
 
-.article3 img {
+/* .article3 img {
   max-width: 100%;
-}
+} */
 
 .article3 div {
-  padding: 5px;
+  padding: 20px;
 }
 
 nav ul {
