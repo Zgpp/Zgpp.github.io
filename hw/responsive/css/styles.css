@@ -6,8 +6,31 @@ p{
   font-family: 'Crimson Text', serif;
 }
 
+h1{
+  font-family: 'Great Vibes', cursive;
+}
+
+.holy {
+  font-size: 50px;
+}
+
 img{max-width: 100%;
 text-align:center;}
+
+.smallsection{
+  font-family: 'Bellefair', serif;
+  font-size: 40px;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover {
+  background: black;
+  color: white
+}
 
 .article1,
 .article2,

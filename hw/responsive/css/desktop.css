@@ -28,6 +28,10 @@ main {
   padding: 10px;
 }
 
+.mobileflag{
+  display: none;
+}
+
 .governer{
   grid-template-columns: 1fr 1fr 1fr 1fr 0.9fr;
 }
