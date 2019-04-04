@@ -9,8 +9,11 @@ var titles = [
   'Press go!' //4
   ];
 
+
+
 $(function(){
  $('#stepinfo, section, footer, .prev').hide();
+ $('body').css('background-color','red');
 });
 
 //We use the start button to begin our tutorial
@@ -36,6 +39,7 @@ $('.next').on('click', function(){
 
   if(step == 5) {
     $('.next').hide();
+    $('#final').html('We are dont <strong>Start again?</strong>')
   }
 
   //make the change only if we are under our number of 6
