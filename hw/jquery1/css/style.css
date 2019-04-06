@@ -1,3 +1,29 @@
 body{
   text-align: center;
 }
+
+.intro{
+  margin-top: 300px;
+}
+
+.myimage{
+  margin-top: 20px;
+}
+
+
+.para{
+  margin-top: 50px;
+}
+
+button{
+  margin-top: 10px;
+}
+
+#over{
+  margin-top: 10px;
+}
+
+.smallsection{
+  font-family: 'Bellefair', serif;
+  font-size: 40px;
+}

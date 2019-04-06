@@ -1,6 +1,7 @@
 //Executes when page loads and it's ready to view
 var step = 0;
 
+
 var titles = [
   'Draw the type of face.', //0 title[0]
   'Add collar.', //1 title[1]
