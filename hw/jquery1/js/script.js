@@ -2,18 +2,18 @@
 var step = 0;
 
 var titles = [
-  'Prepare for take-off', //0 title[0]
-  'Put seatbelt on', //1 title[1]
-  'Turn on the engines', //2 title[3]
-  'Turn the lights on', //3
-  'Press go!' //4
+  'Draw the type of face.', //0 title[0]
+  'Add collar.', //1 title[1]
+  'Add the hair to his head', //2 title[3]
+  'Add his eyes and eyebrow.', //3
+  'Add some detils' //4
   ];
 
 
 
 $(function(){
  $('#stepinfo, section, footer, .prev').hide();
- $('body').css('background-color','red');
+ $('body').css('background-color','white');
 });
 
 //We use the start button to begin our tutorial
