@@ -40,7 +40,7 @@ $('.next').on('click', function(){
 
   if(step == 5) {
     $('.next').hide();
-    $('#final').html('We are dont <strong>Start again?</strong>')
+    $('#final').html('Would you like to <strong>Start again?</strong>')
   }
 
   //make the change only if we are under our number of 6
