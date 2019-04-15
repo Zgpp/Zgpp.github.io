@@ -11,26 +11,30 @@
     <div class="timeline-container timeline-theme-1">
   <div class="timeline js-timeline">
     <div data-time="2017">
-      your content or markup
+      <img src="https://placehold.it/100x100?text=small">
     </div>
     <div data-time="2016">
-      your content or markup
+      <img src="https://placehold.it/100x100?text=small">
     </div>
     <div data-time="2015">
-      your content or markup
+      <img src="https://placehold.it/100x100?text=small">
     </div>
     <div data-time="2014">
-      your content or markup
+      <img src="https://placehold.it/100x100?text=small">
     </div>
     <div data-time="2013">
-      your content or markup
+      <img src="https://placehold.it/100x100?text=small">
     </div>
   </div>
 </div>
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="timelinejs-master/dist/js/timeline.min.js"></script>
+<script type="text/javascript" src="timelinejs-master/dist/js/timeline.min.js">
+$(function(){
+$('.js-timeline').Timeline();
+});
+</script>
 
   </body>
 </html>
