@@ -5,3 +5,9 @@ body{
 h1{
   font-family: 'Raleway', sans-serif;
 }
+
+.intro{
+  font-family: 'Abel', sans-serif;
+  font-size: 50px;
+  margin-top: 120px;
+}
