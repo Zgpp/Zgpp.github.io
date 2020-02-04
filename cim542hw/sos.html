@@ -5,59 +5,61 @@
     <title></title>
   </head>
   <body>
+    <h1>SOS signal</h1>
+    <h2>gif</h2>
+      <img width="100" src="images/SOS1.gif" alt="Image">
 
+      <img width="100" src="images/SOS2.gif" alt="Image">
+
+    <h2>code</h2>
+      <p>void setup() {<br>
+        // put your setup code here, to run once:<br>
+        pinMode(13, OUTPUT);  // set pin 13 to output <br>
+      }
+
+      void loop() {
+        // put your main code here, to run repeatedly:
+        // 3 short flashes
+        digitalWrite(13, HIGH); // turn the LED on (HIGH is the voltage level)
+        delay(500);             // wait for a second
+        digitalWrite(13, LOW);  // turn the LED off by making the voltage LOW
+        delay(300);             // wait for a second
+        digitalWrite(13, HIGH);
+        delay(500);
+        digitalWrite(13, LOW);
+        delay(300);
+        digitalWrite(13, HIGH);
+        delay(500);
+        digitalWrite(13, LOW);
+        delay(300);
+
+        // 3 long flashes
+        digitalWrite(13, HIGH);
+        delay(1500);
+        digitalWrite(13, LOW);
+        delay(300);
+        digitalWrite(13, HIGH);
+        delay(1500);
+        digitalWrite(13, LOW);
+        delay(300);
+        digitalWrite(13, HIGH);
+        delay(1500);
+        digitalWrite(13, LOW);
+        delay(300);
+
+        // 3 short flashes again
+        digitalWrite(13, HIGH);
+        delay(500);
+        digitalWrite(13, LOW);
+        delay(300);
+        digitalWrite(13, HIGH);
+        delay(500);
+        digitalWrite(13, LOW);
+        delay(300);
+        digitalWrite(13, HIGH);
+        delay(500);
+        digitalWrite(13, LOW);
+        delay(3000);            // final delay is 3 seconds
+      }</p>
   </body>
 </html>
-
-
-
-
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(13, OUTPUT);  // set pin 13 to output
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  // 3 short flashes
-  digitalWrite(13, HIGH); // turn the LED on (HIGH is the voltage level)
-  delay(500);             // wait for a second
-  digitalWrite(13, LOW);  // turn the LED off by making the voltage LOW
-  delay(300);             // wait for a second
-  digitalWrite(13, HIGH);
-  delay(500);
-  digitalWrite(13, LOW);
-  delay(300);
-  digitalWrite(13, HIGH);
-  delay(500);
-  digitalWrite(13, LOW);
-  delay(300);
-
-  // 3 long flashes
-  digitalWrite(13, HIGH);
-  delay(1500);
-  digitalWrite(13, LOW);
-  delay(300);
-  digitalWrite(13, HIGH);
-  delay(1500);
-  digitalWrite(13, LOW);
-  delay(300);
-  digitalWrite(13, HIGH);
-  delay(1500);
-  digitalWrite(13, LOW);
-  delay(300);
-
-  // 3 short flashes again
-  digitalWrite(13, HIGH);
-  delay(500);
-  digitalWrite(13, LOW);
-  delay(300);
-  digitalWrite(13, HIGH);
-  delay(500);
-  digitalWrite(13, LOW);
-  delay(300);
-  digitalWrite(13, HIGH);
-  delay(500);
-  digitalWrite(13, LOW);
-  delay(3000);            // final delay is 3 seconds
-}
