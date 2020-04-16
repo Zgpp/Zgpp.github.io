@@ -1,17 +1,17 @@
-# Calm - Representing emotion
+# Playful Experience Project
 
-The goal of this project is to represent the **calm** emotion. I created a paper sculpture in the shape of a cylinder with a wave pattern cut into it. I then used Duralar paper to diffuse my light pattern.
+The goal of this project is to make a playful experience project. I made a Calculator can calculator the result of Addition up to 10.
 
 ## Final Video
 
-![Final Video](/images/animation.gif)
+![Final Video](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.gif)
 
 ## Sculpture
 
-The paper sculpture was built using this [Template Maker](https://www.templatemaker.nl/en/) site and illustrator. I used the Cricuit Maker to cut the shapes out.
+The paper sculpture was built using this [onshape](https://cad.onshape.com/) site. 
 
-![Paper Cylinder](/images/papersolo.jpg)
-![Paper Cylinder Top](/images/papertopsolo.jpg)
+(https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.png)
+(https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20(2).png)
 
 ## [Code](/arduino/lightPattern/lightPattern.ino)
 
