@@ -10,8 +10,8 @@ The goal of this project is to make a playful experience project. I made a Calcu
 
 The sculpture was built using this [onshape](https://cad.onshape.com/) site. 
 
-(https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.png)
-(https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20(2).png)
+![top view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.png)
+![3D view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20(2).png)
 
 ## [Code](/arduino/lightPattern/lightPattern.ino)
 
