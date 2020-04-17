@@ -13,9 +13,7 @@ The sculpture was built using this [onshape](https://cad.onshape.com/) site.
 ![top view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.png)
 ![3D view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20(2).png)
 
-## [Code](/arduino/lightPattern/lightPattern.ino)
-
-I decided to use a fading pattern to emit a calming sensations.
+## [Code](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/ino/playful.ino)
 
 ## Circuit
 
