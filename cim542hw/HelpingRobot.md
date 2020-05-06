@@ -4,23 +4,22 @@ The goal of this project is to make a Helping Robot. I made a jalousie window sw
 
 ## Final Video
 
-![Final Video](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.gif)
+![Motor Video](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/motor.gif)
+![Window Video](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/window.gif)
 
 ## Sculpture
 
 The sculpture was built using this [onshape](https://cad.onshape.com/) site. 
 
-![top view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful.png)
-![3D view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20(2).png)
+![3D view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/HelpingRobot1.png)
+![3D view](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/HelpingRobot2.png)
 
-## [Code](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/ino/playful.ino)
+## [Code](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/ino/HelpingRobot.ino)
 
 ## Circuit
 
-* 9 - 220ohm resistors
-* 3 - 1ohm resistors
-* 9 - White LEDs
-* 3 - Buttons
+* 1 - Micro servo motor
+* 1 - Potentiometer
 * 1 - Arduino Micro
 
-![General Circuit](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/playful%20circuits.png)
+![General Circuit](https://github.com/Zgpp/Zgpp.github.io/blob/master/cim542hw/images/Circuit.png)
