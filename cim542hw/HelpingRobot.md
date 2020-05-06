@@ -1,6 +1,6 @@
 # Playful Experience Project
 
-The goal of this project is to make a playful experience project. I made a Calculator can calculator the result of Addition up to 10.
+The goal of this project is to make a Helping Robot. I made a jalousie window switch.
 
 ## Final Video
 
